@@ -243,9 +243,7 @@ void Init()
 	REG_EVENT_LISTENER(ge_roundStart, &FnRoundStart, "round_start", false);
 	REG_EVENT_LISTENER(ge_Impacts, &FnImpact, "bullet_impact", false);
 	REG_EVENT_LISTENER(ge_WpnFires, &FnWpnFire, "weapon_fire", false);
-//	REG_EVENT_LISTENER(ge_PlayerSay, &FarESP::FarESPIngoing, "player_say", false);
-//will get a dedicated thread later
-
+	REG_EVENT_LISTENER(ge_PlayerSay, &FarESP::FarESPIngoing, "player_say", false);
 }
 
 void DrawBeam(Vector src, Vector end, CColor color)
