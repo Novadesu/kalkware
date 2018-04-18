@@ -1643,6 +1643,10 @@ public:
 	virtual RenderableTranslucencyType_t ComputeTranslucencyType( const model_t* model, int nSkin, int nBody ) = 0;
 
 	virtual int GetModelMaterialCount( const model_t* model ) const = 0;
+	
+	virtual void xD() = 0;
+
+	virtual void xD2() = 0;
 
 	virtual void GetModelMaterials( const model_t* model, int count, IMaterial** ppMaterials ) = 0;
 
