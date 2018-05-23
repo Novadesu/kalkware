@@ -386,7 +386,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -423,7 +422,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -460,7 +458,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -498,7 +495,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -536,7 +532,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -573,7 +568,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -611,7 +605,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -651,7 +644,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -692,7 +684,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -732,7 +723,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -773,7 +763,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -813,7 +802,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1047,7 +1035,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1083,7 +1070,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1119,7 +1105,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1155,7 +1140,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1191,7 +1175,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1227,7 +1210,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1263,7 +1245,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Sniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1301,7 +1282,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.AutoSniper.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1340,7 +1320,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Pistol.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1379,7 +1358,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Rifle.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1418,7 +1396,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.SMG.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
@@ -1457,7 +1434,6 @@ private:
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.neck) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::Neck);
-						HitBoxesToScan.push_back((int)CSGOHitboxID::NeckLower);
 					}
 					if (ClientVars.Ragebot.Weapons.Shotgun.Hitscan.arms) {
 						HitBoxesToScan.push_back((int)CSGOHitboxID::RightUpperArm);
