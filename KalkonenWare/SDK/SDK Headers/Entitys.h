@@ -225,7 +225,6 @@ enum class CSGOHitboxID
 {
 	Head = 0,
 	Neck,
-	NeckLower,
 	Pelvis,
 	Stomach,
 	LowerChest,
