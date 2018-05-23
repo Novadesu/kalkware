@@ -1676,7 +1676,7 @@ public:
 	void CBaseCombatWeapon::UpdateAccuracyPenalty()
 	{
 		typedef void (__thiscall* OriginalFn)( void* );
-		getvfunc< OriginalFn >( this, 471 )( this );
+		getvfunc< OriginalFn >( this, 469 )( this );
 	}
 
 	float CBaseCombatWeapon::GetInaccuracy()
@@ -1685,7 +1685,7 @@ public:
 			return 0.f;
 
 		typedef float (__thiscall* OriginalFn)( void* );
-		return getvfunc< OriginalFn >( this, 470 )( this );
+		return getvfunc< OriginalFn >( this, 468 )( this );
 	}
 
 	float CBaseCombatWeapon::GetSpread()
@@ -1694,7 +1694,7 @@ public:
 			return 0.f;
 
 		typedef float (__thiscall* OriginalFn)( void* );
-		return getvfunc< OriginalFn >( this, 439 )( this );
+		return getvfunc< OriginalFn >( this, 337 )( this );
 	}
 
 	int ammo()
