@@ -1693,7 +1693,7 @@ public:
 			return 0.f;
 
 		typedef float (__thiscall* OriginalFn)( void* );
-		return getvfunc< OriginalFn >( this, 337 )( this );
+		return getvfunc< OriginalFn >( this, 437 )( this );
 	}
 
 	int ammo()
