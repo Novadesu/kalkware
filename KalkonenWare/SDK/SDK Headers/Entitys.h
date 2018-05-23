@@ -2163,7 +2163,7 @@ public:
 	{
 		if (!this) return nullptr;
 		typedef CCSWeaponInfo*(__thiscall* OriginalFn)(void*);
-		return  getvfunc<OriginalFn>(this, 447)(this);
+		return  getvfunc<OriginalFn>(this, 445)(this);
 	}
 };
 
